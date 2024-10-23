@@ -7,15 +7,23 @@ namespace HotelBook
         static void Main(string[] args)
         {
             //zadanie 1
-            /*Namespace: pozwala na organizacje kodu, dzięki temu można grupować pokrewne klasy, unika się dzięki temu konfliktu w przypadku używania tych samych nazw dla metod.
-            Class: to blok z którego tworzymy kod, w nim piszemy strukturę i zachowanie obiektów, definiujemy jego właściwości i metody 
-            Main: jest to wejście do programu, i rozpoczęcie wykonywania, 
-            using: służy do deklarowania przestrzeni nazw, można dzięki temu skrócić pisanie pełnych nazw metod
+            /*
+             * Namespace: pozwala na organizacje kodu, dzięki temu można grupować pokrewne klasy, unika się dzięki temu konfliktu w przypadku używania tych samych nazw dla metod.
+             * Class: to blok z którego tworzymy kod, w nim piszemy strukturę i zachowanie obiektów, definiujemy jego właściwości i metody 
+             * Main: jest to wejście do programu, i rozpoczęcie wykonywania, 
+             * using: służy do deklarowania przestrzeni nazw, można dzięki temu skrócić pisanie pełnych nazw metod
             */
 
             //Zadanie 2
             Console.Write("Hello World");
             Console.Write(" to jest mój pierwszy program");
+
+            //Zadanie 3
+            /*
+             * Console.Write(), a Console.WriteLine().
+             * Console.Write dopisuje w tej samej lini terminala podany tekst, natomiast Console.WriteLine tekst w argumencie wypisuje w nowej linii terminala
+             * Wielkość liter ma znaczenie, w c# przyjęto nazwy zgodne z PascalCase, a Class to nazwa klasy, natomiast Write() oraz WriteLine() to nazwy metod.
+            */
 
             //Zadanie 4
             Console.WriteLine("");
@@ -33,10 +41,10 @@ namespace HotelBook
             Console.WriteLine(myValue == "K");
 
             //Sprawdź działanie programu
-            Console.WriteLine(1 > 5);
-            Console.WriteLine(1 < 5);
-            Console.WriteLine(1 >= 5);
-            Console.WriteLine(1 <= 5);
+            Console.WriteLine(1 > 5); //False
+            Console.WriteLine(1 < 5);   //True
+            Console.WriteLine(1 >= 5);  //False
+            Console.WriteLine(1 <= 5);  //True
 
             //Zadanie 6
             string test = "Moj pierwszy program";
